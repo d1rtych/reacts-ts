@@ -11,7 +11,7 @@ export const FavoritesPage = () => {
       <ul className='list-none '>
         { favorites.map(f => (
           <li key={f}>
-            <a href={f} target='_blank'>{f}</a>
+            <a href={f} target='_blank' rel="noreferrer">{f}</a>
           </li>
         )) }
       </ul>
